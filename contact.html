@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Dila Kemer</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="about.html">Hakkımda</a></li>
+          <li><a href="education.html">Eğitim</a></li>
+          <li><a href="projects.html">Projeler</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+        </ul>
+      </nav>
+  <header>
+    <h1>İletişim</h1>
+    <p>Benimle iletişime geçmek için aşağıdaki formu kullanabilirsiniz.</p>
+  </header>
+
+  <section id="contact-info">
+    <div class="contact-details">
+      <h2>İletişim Bilgileri</h2>
+      <p>E-posta: <a href="mailto:dilakemer1@gmail.com">dilakemer1@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Dilakemer" target="_blank">github.com/Dilakemer</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/dila-kemer-956b2425a" target="_blank">linkedin.com/in/dila-kemer</a></p>
+    </div>
+
+    <div class="contact-form">
+      <h2>Mesaj Gönder</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" name="name" required placeholder="Adınızı girin">
+        
+        <label for="email">E-posta:</label>
+        <input type="email" id="email" name="email" required placeholder="E-posta adresinizi girin">
+        
+        <label for="message">Mesajınız:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Mesajınızı buraya yazın"></textarea>
+        
+        <button type="submit">Gönder</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Dila Kemer. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
