@@ -10,7 +10,7 @@ Merhaba! Bu, benim kişisel portföy web sitemin kaynak kodlarıdır. HTML, CSS 
 - **Anasayfa**: Web sitemin genel tanıtımı ve ana sayfa öğeleri.
 - **Hakkımda**: Kişisel bilgim, biyografim ve iletişim bilgilerim.
 - **Eğitim**: Aldığım eğitimler ve tamamladığım kurslar hakkında detaylı bilgi.
-- **Projeler**: Geliştirdiğim projeler, her biri açıklamalarıyla birlikte.
+- **Projeler**: Geliştirdiğim projeler, deyatlarını ekleyeceğim :)
 - **İletişim**: İletişim formu ve diğer iletişim bilgilerim.
 
 ---
