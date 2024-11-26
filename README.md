@@ -30,8 +30,8 @@ Bu projede kullanılan başlıca teknolojiler:
 ## 🔧 Nasıl Kullanılır?
 
 Projeyi bilgisayarınıza klonladıktan sonra, tüm HTML dosyalarını bir web tarayıcısında açarak kolayca görüntüleyebilirsiniz.
-
-##🤝 Katkı
+---
+## 🤝 Katkı
 Bu projeye katkı yapmak isterseniz, çekme isteği (pull request) göndererek katkıda bulunabilirsiniz. Yardımcı olabileceğiniz her türlü özellik geliştirmesine ve hata düzeltmesine açığım.
 
 
