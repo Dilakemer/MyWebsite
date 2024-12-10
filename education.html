@@ -5,18 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eğitim & Kurslar</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Tooltip yapısı için CSS */
+    .tooltip {
+      display: none; /* Başlangıçta görünmez */
+      position: absolute;
+      top: 110%; /* Metnin altında göster */
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 5px;
+    }
+
+    li {
+      position: relative;
+      display: inline-block;
+      margin: 20px;
+      cursor: pointer;
+    }
+
+    li:hover .tooltip {
+      display: block; /* İmleç üzerine gelince resmi göster */
+    }
+
+    .tooltip img {
+      width: 200px; /* Resim boyutu */
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">Dila Kemer</div>
-        <ul class="nav-links">
-          <li><a href="index.html">Anasayfa</a></li>
-          <li><a href="about.html">Hakkımda</a></li>
-          <li><a href="education.html">Eğitim</a></li>
-          <li><a href="projects.html">Projeler</a></li>
-          <li><a href="contact.html">İletişim</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <div class="logo">Dila Kemer</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Anasayfa</a></li>
+      <li><a href="about.html">Hakkımda</a></li>
+      <li><a href="education.html">Eğitim</a></li>
+      <li><a href="projects.html">Projeler</a></li>
+      <li><a href="contact.html">İletişim</a></li>
+    </ul>
+  </nav>
+
   <header>
     <h1>Eğitim & Kurslar</h1>
     <p>Bilgisayar Mühendisliği eğitimim ve aldığım kurslar hakkında bilgi.</p>
@@ -30,12 +63,63 @@
   <section id="courses">
     <h2>Kurslar</h2>
     <ul>
-      <li>Git/GitHub Eğitimi (Nisan 2024)</li>
-      <li>Makine Öğrenmesi 101 (Mayıs 2024)</li>
-      <li>Yapay Zeka ve Veri Analitiği (Şubat 2024)</li>
-      <li>SQL Öğreniyorum (Ocak 2024)</li>
-      <li>OOP 101 (Ocak 2024)</li>
-      <li>Python Programming for Data Science (Ağustos 2024)</li>
+      <li>
+        Git/GitHub Eğitimi (Nisan 2024)
+        <span class="tooltip">
+          <img src="images\github.jpg" alt="Git/GitHub Sertifikası">
+        </span>
+      </li>
+      <li>
+        Makine Öğrenmesi 101 (Mayıs 2024)
+        <span class="tooltip">
+          <img src="images\makineogrenmesi.jpeg" alt="Makine Öğrenmesi Sertifikası">
+        </span>
+      </li>
+      <li>
+        Yapay Zeka ve Veri Analitiği (Şubat 2024)
+        <span class="tooltip">
+          <img src="images\yapayzeka.jpeg" alt="Yapay Zeka Sertifikası">
+        </span>
+      </li>
+      <li>
+        SQL Öğreniyorum (Ocak 2024)
+        <span class="tooltip">
+          <img src="images\btkakademi.jpeg" alt="SQL Sertifikası">
+        </span>
+      </li>
+      <li>
+        OOP 101 (Ocak 2024)
+        <span class="tooltip">
+          <img src="images\bbt.jpeg" alt="OOP Sertifikası">
+        </span>
+      </li>
+      
+      <li>
+        Clean Code'a Giriş
+        <span class="tooltip">
+          <embed src="images/CleanCode.pdf" width="300" height="200">
+        </span>
+      </li>
+      
+      <li>
+        Agile Training
+        <span class="tooltip">
+          <embed src="images\Katılım Sertifikası-Dila Kemer.pdf" width="300" height="200">
+        </span>
+      </li>
+      <li>
+        Sql Temelleri
+        <span class="tooltip">
+          <embed src="images\SQL'in Temelleri Eğitimi - Katılım Sertifikası-Dila Kemer.pdf" width="300" height="200">
+        </span>
+      </li>
+      <li>
+        Python Programming for Data Science (Ağustos 2024)
+        <span class="tooltip">
+          <embed src="images\miuul.pdf" width="300" height="200">
+        </span>
+      </li>
+      
     </ul>
   </section>
 
